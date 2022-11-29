@@ -1,0 +1,21 @@
+@import "_null-style";
+@import "_fonts";
+@import "_icon-fonts";
+@import "_repeat-class";
+.wrapper{
+	max-width: 1150px;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: 0px auto;
+	overflow: hidden;
+	font-family: 'Heebo';
+}
+
+@import "_header";
+@import "_main";
+@import "main-sections/_hello";
+@import "main-sections/_posts";
+@import "main-sections/_works";
+@import "_footer";
+

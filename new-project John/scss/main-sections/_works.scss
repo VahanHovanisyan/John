@@ -1,0 +1,117 @@
+.works {
+	padding: 35px 0px 80px 0px;
+   // .works__container
+
+   // &__container {
+   // }
+
+   // .works__small-title
+
+   // &__small-title {
+   // }
+
+   // .works__column-list
+
+   &__column-list {
+		@media(max-width:767.98px){
+			display: flex;
+			overflow: auto;
+
+		}
+   }
+
+   // .works__column-item
+
+   &__column-item {
+      display: flex;
+      padding: 30px 0px;
+      border-bottom: 1px solid #e0e0e0;
+      @media (max-width: 767.98px) {
+         flex-direction: column;
+			min-width: 90%;
+			margin: 0px 20px 0px 0px;
+      }
+   }
+
+   // .works__img-box
+
+   &__img-box {
+      flex: 0 0 250px;
+      margin: 0px 20px 0px 0px;
+		min-height: 180px;
+		border-radius: 6px;
+		overflow: hidden;
+      @media (max-width: 767.98px) {
+         margin: 0px 0px 20px 0px;
+			padding: 30% 0px;
+      }
+		
+   }
+
+   // .works__content-box
+
+   &__content-box {
+      flex: 1 1 auto;
+      // @media (max-width: 767.98px) {
+      //    flex: 0 1 100px;
+      // }
+   }
+
+   // .works__title
+
+   &__title {
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 44px;
+      color: #21243d;
+      margin: 0px 0px 10px 0px;
+      @media (max-width: 767.98px) {
+         font-size: 24px;
+         line-height: 30px;
+      }
+   }
+
+   // .works__descr
+
+   &__descr {
+      display: flex;
+      margin: 0px 0px 20px 0px;
+   }
+
+   // .works__year
+
+   &__year {
+      font-weight: 900;
+      font-size: 18px;
+      color: #ffffff;
+      background: #142850;
+      border-radius: 16px;
+      padding: 0px 10px;
+      margin: 0px 25px 0px 0px;
+      display: inline-flex;
+      align-items: center;
+   }
+
+   // .works__small-descr
+
+   &__small-descr {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 29px;
+      color: #8695a4;
+      @media (max-width: 767.98px) {
+         font-size: 16px;
+         line-height: 24px;
+      }
+   }
+
+   // .works__text
+
+   // &__text {
+   // }
+
+   // .works__column-block
+
+   // &__column-block {
+   // }
+}
